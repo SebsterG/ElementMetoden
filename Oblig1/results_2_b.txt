@@ -1,0 +1,126 @@
+
+b)
+
+LAGRANGE ELEMENTS = 2
+
+L2 - NORM:
+
+
+mu = 1e+00 , N = 8 Numerical Error: 1.1511e-05
+
+mu = 1e+00 , N = 16 Numerical Error: 1.4484e-06
+
+mu = 1e+00 , N = 32 Numerical Error: 1.8175e-07
+
+mu = 1e+00 , N = 64 Numerical Error: 2.2766e-08
+
+mu = 1e-01 , N = 8 Numerical Error: 2.2325e-03
+
+mu = 1e-01 , N = 16 Numerical Error: 3.0338e-04
+
+mu = 1e-01 , N = 32 Numerical Error: 3.8830e-05
+
+mu = 1e-01 , N = 64 Numerical Error: 4.8872e-06
+
+mu = 1e-02 , N = 8 Numerical Error: 7.6887e-02
+
+mu = 1e-02 , N = 16 Numerical Error: 2.7731e-02
+
+mu = 1e-02 , N = 32 Numerical Error: 7.3478e-03
+
+mu = 1e-02 , N = 64 Numerical Error: 1.3145e-03
+
+mu = 1e-03 , N = 8 Numerical Error: nan
+
+mu = 1e-03 , N = 16 Numerical Error: nan
+
+mu = 1e-03 , N = 32 Numerical Error: nan
+
+mu = 1e-03 , N = 64 Numerical Error: nan
+
+
+c)
+
+LAGRANGE ELEMENTS = 1
+L2 norm
+
+mu =  1.0 C =   0.077217550709 alpha =   1.99848415122
+mu =  0.1 C =   0.559578704657 alpha =   1.9343298292
+mu =  0.01 C =   2.78391620437 alpha =   1.83179131516
+
+
+LAGRANGE ELEMENTS = 2
+L2 norm
+
+mu =  1.0  C =   0.00494279949017 alpha =   2.98835482613
+mu =  0.1  C =   0.246231900242   alpha =   2.75535616309
+mu =  0.01 C =   1.07890852871    alpha =   2.04562047668
+
+LAGRANGE ELEMENTS = 1
+H1 norm
+mu =  1.0 C =   0.298768477069 alpha =   0.998517422902
+mu =  0.1 C =   4.01201969534 alpha =   0.861879498393
+mu =  0.01 C =   15.4545207055 alpha =   0.378727137865
+
+LAGRANGE ELEMENTS = 2
+H1 norm
+mu =  1.0 C =   0.0365363825599 alpha =   1.9838208629
+mu =  0.1 C =   3.83850565709 alpha =   1.77422820512
+mu =  0.01 C =   18.2184701683 alpha =   0.738632714997
+
+
+d)
+
+LAGRANGE ELEMENTS = 2
+L2 NORM:
+beta = h.min()*1.0
+
+mu = 1e+00 , N = 8 Numerical Error: 1.2625e+00
+mu = 1e+00 , N = 16 Numerical Error: 3.4611e-01
+mu = 1e+00 , N = 32 Numerical Error: 3.3307e+00
+mu = 1e+00 , N = 64 Numerical Error: 2.4616e+03
+
+mu = 1e-01 , N = 8 Numerical Error: 2.4907e-01
+mu = 1e-01 , N = 16 Numerical Error: 1.5145e-01
+mu = 1e-01 , N = 32 Numerical Error: 5.2001e+00
+mu = 1e-01 , N = 64 Numerical Error: 1.0097e+04
+
+mu = 1e-02 , N = 8 Numerical Error: 2.7716e-01
+mu = 1e-02 , N = 16 Numerical Error: 1.9793e-01
+mu = 1e-02 , N = 32 Numerical Error: 1.3499e-01
+mu = 1e-02 , N = 64 Numerical Error: 5.0506e+03
+
+
+LAGRANGE ELEMENTS = 2
+L2 NORM:
+beta = h.min()*0.15
+
+mu = 1e+00 , N = 8 Numerical Error: 3.0109e-02
+mu = 1e+00 , N = 16 Numerical Error: 1.5232e-02
+mu = 1e+00 , N = 32 Numerical Error: 7.6622e-03
+mu = 1e+00 , N = 64 Numerical Error: 3.8428e-03
+
+mu = 1e-01 , N = 8 Numerical Error: 5.7559e-02
+mu = 1e-01 , N = 16 Numerical Error: 3.0749e-02
+mu = 1e-01 , N = 32 Numerical Error: 1.5944e-02
+mu = 1e-01 , N = 64 Numerical Error: 8.1258e-03
+
+mu = 1e-02 , N = 8 Numerical Error: 7.8816e-02
+mu = 1e-02 , N = 16 Numerical Error: 5.9183e-02
+mu = 1e-02 , N = 32 Numerical Error: 3.8149e-02
+mu = 1e-02 , N = 64 Numerical Error: 2.2061e-02
+
+beta = h.min()
+
+h/mu    1.0                0.1             0.01
+2       0.231884809424     1.37374796004   1.48337689453
+4       0.119830544311     1.04782853084   1.53689283747
+8       0.0611456253743    0.667343103029  1.56955648944
+16      0.0309330012785    0.385035688553  1.51741616324
+32      0.0155652178542    0.209127121281  1.2126647182
+64      0.00780854650798   0.109434586932  0.795300364213
+
+
+mu =  1.0   C =   0.330129747596  alpha =   0.979369968414
+mu =  0.1   C =   2.11805769892   alpha =   0.743376329069
+mu =  0.01  C =   1.83477492663   alpha =   0.159166143481
