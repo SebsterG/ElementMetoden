@@ -1,6 +1,7 @@
 from dolfin import *
 import numpy as np
 import matplotlib.pyplot as plt
+set_log_active(False)
 
 
 def solver_1(N,k,l):
